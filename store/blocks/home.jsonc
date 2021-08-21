@@ -1,15 +1,70 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "flex-layout.row#slider",
+      "tab-content#home"
+      ]
+  },
+
+  "flex-layout.row#slider":{
+    "props":{
+      "blockClass":"slider"
+    },
+    "children": [
+      "slider-layout#text-test"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#example", "image#example2"]
+  },
+
+  "image#example": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T132958Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8bda0e56892c456d8d04632aa49ac591a888af1ccebec818cacd795b9f42f2a6",
+      "maxHeight": 1000
+    }
+  },
+  "image#example2": {
+    "props": {
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210819%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210819T133030Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=4f7da3547ac695988a8724960da0c1be739977ab785c422a21e3969447c8b567",
+      "maxHeight": 1000
+    }
+ },
+ "tab-content#home": {
+  "children": [
+    "tab-content.item#home1"
+  ]
+},
+ "tab-content.item#home1": {
+  "children": [
+    "search-result-layout.customQuery"
+  ],
+  "props": {
+    "tabId": "home1"
+  }
+},
+"search-result-layout.customQuery": {
+  "blocks": [
+    "search-result-layout.desktop"
+  ],
+  "props": {
+    "querySchema": {
+      "orderByField": "OrderByReleaseDateDESC",
+      "hideUnavailableItems": true,
+      "maxItemsPerPage": 8,
+      "queryField": "Camera"
     }
   }
+}
 }

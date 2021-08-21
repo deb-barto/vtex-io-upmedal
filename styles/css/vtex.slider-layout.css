@@ -1,0 +1,16 @@
+.slideChildrenContainer--carousel{
+    background-color:#2e2e2e;
+    box-shadow:inset 0px 8px 6px -7px rgb(0, 0, 0);
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.sliderArrows{
+  color:aliceblue;
+  transform: translate(0px, 155px);
+}
+
+.paginationDot--isActive,
+.paginationDot--carousel--isActive{
+    background-color:chartreuse;
+}
