@@ -1,0 +1,18 @@
+.listItem :global(.vtex-button) {
+    background-color: transparent;
+    color: #94f12a;;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .listItem:active{
+    background-color: transparent;
+   color: #94f12a;
+    border: none;
+    border-bottom: 5px solid rgb(140, 238, 12);
+    border-radius: 0;
+  }
+  
+  .listItemActive :global(.vtex-button) {
+    color: #ffffff;
+  }

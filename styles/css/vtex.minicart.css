@@ -1,0 +1,20 @@
+.minicartContentContainer{
+    background-color:rgb(47, 47, 47)
+}
+.minicartFooter{
+    background-color:rgb(70, 70, 70)
+}
+.minicartProductListContainer{
+    background-color: rgb(77, 77, 77);
+}
+.minicartTitle{
+ color:chartreuse;
+}
+.popupChildrenContainer{
+    border-color:chartreuse;
+    background-color: rgb(77, 77, 77);
+}
+
+.minicartQuantityBadge{
+    background-color:chartreuse;
+}

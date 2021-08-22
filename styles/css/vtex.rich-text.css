@@ -1,0 +1,11 @@
+.link {
+    font-size: 0.9rem;
+    margin: 4px;
+    color: #fff;
+    font-style: normal;
+    text-decoration: unset;
+    font-family: "Montserrat", sans-serif;
+  }
+  .container--icontext {
+    height: 24px;
+}

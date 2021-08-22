@@ -7,15 +7,3 @@
 .styledLinkContent{
     color:white;
 }
-
-.styledLinkContent:active{
-    color:rgb(89, 250, 83);
-}
-
-.menuItem:active{
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    border-bottom: 5px solid rgb(9, 255, 0);
-    animation: expand 1s linear;
-    animation-delay: 200ms;
-}

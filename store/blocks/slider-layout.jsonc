@@ -1,0 +1,184 @@
+{
+    "slider-layout#home": {
+      "children": [
+       "tab-layout#header1",
+       "tab-layout#header2",
+       "tab-layout#header3",
+       "tab-layout#header4",
+       "tab-layout#header5",
+       "tab-layout#header6",
+       "tab-layout#header7",
+       "tab-layout#header8"
+      ],
+      "props":{
+        "blockClass":"lista",
+        "defaultActiveTabById":"home1"
+      }
+    },
+    "tab-layout#header1":{
+
+        "children":[
+        "tab-list#home1",
+        "tab-content"]
+    },
+
+    "tab-list#home1":{
+        "children": [
+            "tab-list.item#home1"
+        ]
+
+    },
+    "tab-list.item#home1":{
+        "props":{
+            "tabId":"Promoção",
+            "label":"Promação",
+            "defaultActiveTab":true
+        }
+    },
+
+    "tab-layout#header2":{
+
+        "children":[
+        "tab-list#home2",
+        "tab-content"]
+    },
+
+    "tab-list#home2":{
+        "children": [
+            "tab-list.item#home2"
+        ]
+
+    },
+
+    "tab-list.item#home2":{
+        "props":{
+            "tabId":"CORINTHIANS",
+            "label":"CORINTHIANS",
+            "defaultActiveTab":true
+        }
+    },
+    "tab-layout#header3":{
+
+        "children":[
+        "tab-list#home3",
+        "tab-content"]
+    },
+
+    "tab-list#home3":{
+        "children": [
+            "tab-list.item#home3"
+        ]
+
+    },
+    "tab-list.item#home3":{
+        "props":{
+            "tabId":"PALMEIRAS",
+            "label":"PALMEIRAS",
+            "defaultActiveTab":true
+        }
+    }
+
+    ,
+    "tab-layout#header4":{
+
+        "children":[
+        "tab-list#home4",
+        "tab-content"]
+    },
+
+    "tab-list#home4":{
+        "children": [
+            "tab-list.item#home4"
+        ]
+
+    },
+    "tab-list.item#home4":{
+        "props":{
+            "tabId":"SIGNOS",
+            "label":"SIGNOS",
+            "defaultActiveTab":true
+        }
+    },
+
+    "tab-layout#header5":{
+
+        "children":[
+        "tab-list#home5",
+        "tab-content"]
+    },
+
+    "tab-list#home5":{
+        "children": [
+            "tab-list.item#home5"
+        ]
+
+    },
+    "tab-list.item#home5":{
+        "props":{
+            "tabId":"DIVERTIDOS",
+            "label":"DIVERTIDOS",
+            "defaultActiveTab":true
+        }
+    },
+
+    "tab-layout#header6":{
+
+        "children":[
+        "tab-list#home6",
+        "tab-content"]
+    },
+
+    "tab-list#home6":{
+        "children": [
+            "tab-list.item#home6"
+        ]
+
+    },
+    "tab-list.item#home6":{
+        "props":{
+            "tabId":"7 MARAVILHAS",
+            "label":"7 MARAVILHAS",
+            "defaultActiveTab":false
+        }
+    },
+    "tab-layout#header7":{
+
+        "children":[
+        "tab-list#home7",
+        "tab-content"]
+    },
+
+    "tab-list#home7":{
+        "children": [
+            "tab-list.item#home7"
+        ]
+
+    },
+    "tab-list.item#home7":{
+        "props":{
+            "tabId":"GUERREIROS",
+            "label":"GUERREIROS",
+            "defaultActiveTab":false
+        }
+    },
+    "tab-layout#header8":{
+
+        "children":[
+        "tab-list#home8",
+        "tab-content"]
+    },
+
+    "tab-list#home8":{
+        "children": [
+            "tab-list.item#home8"
+        ]
+
+    },
+    "tab-list.item#home8":{
+        "props":{
+            "tabId":"ALBUM1",
+            "label":"ALBUM1",
+            "defaultActiveTab":false
+        }
+    }
+  }

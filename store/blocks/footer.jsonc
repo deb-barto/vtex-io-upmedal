@@ -1,26 +1,135 @@
-{
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
+{  "footer": {
+  "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+},
+"footer-layout.desktop": { 
+  "children": [
+    "sticky-layout#footer"
+  ]
+},
+"sticky-layout#footer": { 
+  "children": [
+    "flex-layout.row#footer1"
+  ],
+  "props": {
+    "position": "bottom",
+    "blockClass": "footerStickyContainer",
+    "fullWidth": true
   }
+},
+"flex-layout.row#footer1": { 
+  "children": [
+    "flex-layout.row#footer2"
+  ],
+  "props": {
+    "position": "bottom",
+    "blockClass":"footer1",
+    "fullWidth": true
+
+  }
+},
+
+"footer-layout.mobile": { 
+  "children": [
+    "flex-layout.row#footer1"
+  ]
+},
+
+"flex-layout.row#footer2": { 
+  "children": [
+    "flex-layout.col#footer1",
+    "flex-layout.col#footer2",
+    "flex-layout.col#footer3",
+    "flex-layout.col#footer4"
+  ],
+  "props": {
+    "fullWidth": true,
+    "blockClass":"footer2"
+    }
+},
+"flex-layout.col#footer1": {
+  "children": [
+    "link#footerIcon1"
+  ]
+}, 
+
+"link#footerIcon1":{
+    "children": [
+        "icon#icon1"
+    ],
+    "props": {
+      "href": "#",
+      "label": "ENTRAR"
+    }
+}
+,
+"icon#icon1": {
+  "props": {
+    "id": "hpa-profile",
+    "blockClass": "footerIcon1",
+    "size": 20
+  }
+},
+"flex-layout.col#footer2": {
+  "children": [
+    "link#footerIcon2"
+  ]
+}, "link#footerIcon2":{
+    "children": [
+        "icon#icon2"
+    ],
+    "props": {
+      "href": "#",
+      "label": "DESAFIOS"
+    }
+},
+"icon#icon2": {
+    "props": {
+      "id": "nav-home",
+      "blockClass": "footerIcon2",
+      "size": 20,
+      "isActive": true,
+      "state": "on"
+    }
+},
+"flex-layout.col#footer3": {
+  "children": [
+    "link#footerIcon3"
+  ]
+}, "link#footerIcon3":{
+    "children": [
+        "icon#icon3"
+    ],
+    "props": {
+      "href": "#",
+      "label": "LOJA"
+    }
+},
+"icon#icon3": {
+    "props": {
+      "id": "hpa-cart",
+      "blockClass": "footerIcon3",
+      "size": 20,
+      "type": "outline"
+    }
+},
+"flex-layout.col#footer4": {
+  "children": [
+    "link#footerIcon4"
+  ]
+}, "link#footerIcon4":{
+    "children": [
+        "icon#icon4"
+    ],
+    "props": {
+      "href": "#",
+      "label": "SUPORTE"
+    }
+},
+"icon#icon4": {
+    "props": {
+      "id": "mpa-heart",
+      "blockClass": "footerIcon4",
+      "size": 20
+    }
+}
 }

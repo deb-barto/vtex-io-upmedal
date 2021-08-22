@@ -14,11 +14,12 @@
   "search-result-layout.desktop": {
     "children": [
       "search-fetch-previous",
-      "flex-layout.row#results",
-      "search-fetch-more"
+      "flex-layout.row#results"
     ],
     "props":{
-      "maxItemsPerPage": 8
+      "maxItemsPerPage": 8,
+      "defaultGalleryLayout": "grid",
+      "verticalALign": "middle"
     }
   },
   "flex-layout.row#results": {
@@ -40,5 +41,53 @@
     "children": [
       "search-content"
     ]
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "two",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": 2
+        }
+      ],
+      "OneOrTwoLineSummary": "product-summary.shelf"
+    }
+  },
+    "product-summary.shelf": {
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-images#lp",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "products"
+  }
+},
+  "product-images#lp":{
+    "props":{
+      "showNavigationArrows": true,
+      "showPaginationDots":true
+    }
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#results"
+    ],
+    "props":{
+      "maxItemsPerPage": 1,
+      "defaultGalleryLayout": "grid",
+      "verticalALign": "middle"
+    }
   }
 }

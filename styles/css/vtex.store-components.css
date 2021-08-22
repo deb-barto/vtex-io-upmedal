@@ -1,5 +1,3 @@
-
-
 .searchBarContainer{
     width: 500px;
 }
@@ -24,7 +22,53 @@
 .imageElement{
     border-radius: 25px;
 }
-.container{
-    box-shadow:inset 0px 8px 6px -7px rgb(0, 0, 0);
-    background-color:#2e2e2e;
+
+.installmentsPrice {
+    color:#59ff00;
+}
+
+.sellingPrice {
+    color: white;
+}
+
+.productBrand {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    .searchBarInnerContainer :global(.vtex-input-prefix__group){
+        width: fit-content;
+    }
+}
+.figure{
+    opacity: 0;
+}
+.carouselGaleryCursor{
+   transform: translate(-35px, 0px);
+   width: 70%;
+} 
+
+.productImageTag--main{
+    max-width:180px;
+
+}
+.caretIcon{
+    transform: translate(0px, 90px);
+    color:aliceblue
+}
+
+.swiper-Bullet{
+    color:aliceblue
+}
+
+.swiper-Bullet--Active{
+    color:aliceblue
+}
+.carouselContainer{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
 }
