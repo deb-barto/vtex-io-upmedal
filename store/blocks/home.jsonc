@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "slider-layout#home",
       "flex-layout.row#slider",
       "tab-content#home"
       ]

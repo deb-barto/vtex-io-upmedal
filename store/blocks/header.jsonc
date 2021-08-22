@@ -12,101 +12,6 @@
     "children": [
       "sticky-layout#desktop"
     ]
-    
-  },
-  "vtex.menu@2.x:menu#websites": {
-    "props": {
-      "items": [
-        {
-          "id": "menu-item-shop",
-          "type": "custom",
-          "iconId": null,
-          "highlight": true,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "Shop"
-          }
-        },
-        {
-          "id": "menu-item-about-us",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "About Us"
-          }
-        },
-        {
-          "id": "menu-item-about-us",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "About Us"
-          }
-        },
-        {
-          "id": "menu-item-about-us",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "About Us"
-          }
-        },
-        {
-          "id": "menu-item-about-us",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "About Us"
-          }
-        },
-        {
-          "id": "menu-item-about-us",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "About Us"
-          }
-        },
-        {
-          "id": "menu-item-about-us",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "About Us"
-          }
-        },
-        {
-          "id": "menu-item-about-us",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "text": "About Us"
-          }
-        }
-      ]
-    }
   },
   "sticky-layout#desktop": {
     "props": {
@@ -114,10 +19,12 @@
     },
     "children": [
       "flex-layout.row#desktop",
-      "slider-layout#home",
       "flex-layout.row#footer1"
     ]
   },
+
+
+  
   "flex-layout.row#desktop": {
     "props": {
       "blockClass":"content",
@@ -388,4 +295,7 @@
   "drawer": {
     "children": []
   }
+
+
+
 }
