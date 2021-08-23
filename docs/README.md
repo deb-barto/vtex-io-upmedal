@@ -5,7 +5,7 @@ Foi passado o tempo de uma semana para concluir todo o site, onde devariamos por
 
 ### Resultados parciais
 
-![Alt Text](https://media-exp1.licdn.com/dms/image/C4D22AQGCcQyRrrhG4w/feedshare-shrink_2048_1536/0/1629677712225?e=1632355200&v=beta&t=xwAAE8VlXURTjrFAHkl4KcAY24RjpALBKIM8p_z4CIE")
+![Alt Text](https://media-exp1.licdn.com/dms/image/C4D22AQGCcQyRrrhG4w/feedshare-shrink_2048_1536/0/1629677712225?e=1632355200&v=beta&t=xwAAE8VlXURTjrFAHkl4KcAY24RjpALBKIM8p_z4CIE)
 
 - Foi usado Tecnologia de VTEX.IO
 - CSS - handle
