@@ -17,5 +17,5 @@ Esse desafio foi muito intenso, e não teria chegado onde cheguei sem ajuda dos 
 Meu eterno agradecimento a todos me proporcionaram essa oportunidade de entrar em contato com uma tecnologia tão completa.
 
 ### Conclusão
-Infeizmente o projeto não conseguiu ser totalmente finalizado, faltou implementar uma API de contato com o Whatsap, bem como faltou também implementar o conteúdo de captação de leed com AWS. No entanto, me dediquei plenamente para ler a documentação da vtex, e passei mais de 60 horas codando, errando e tentando. Por mais que meu resultado não seja 100% o esperado, eu fico muito satisfeita comigo mesma por ter me dedicado em algo que gosto, e por ter chegado em um resultado parcial muito interessante.
+Infelizmente o projeto não conseguiu ser totalmente finalizado, faltou implementar uma API de contato com o Whatsap, bem como faltou também implementar o conteúdo de captação de leed com AWS. No entanto, me dediquei plenamente para ler a documentação da vtex, e passei mais de 60 horas codando, errando e tentando. Por mais que meu resultado não seja 100% o esperado, eu fico muito satisfeita comigo mesma por ter me dedicado em algo que gosto, e por ter chegado em um resultado parcial muito interessante.
 Espero poder ter mais desafios com VTEX.IO no futuro.
